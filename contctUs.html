@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا</title>
+    <style>
+         <style>
+                .contact-info {
+            align-items: baseline;
+            margin-top: 10px;
+        }
+
+        .contact-info img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+         body {
+            direction: rtl;
+            font-family: Tahoma, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #CFCBBE;
+            color: black;
+            padding: 5px;
+        }
+        .nav-bar {
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            background-color: #CFCBBE;
+        }
+        .nav-item {
+            color: black;
+            font-size:22px;
+            margin: 8px;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size:24px;
+        }
+        h2{
+            font-size:22px;
+            text-align:center; 
+            color: #9D8F6B;
+        }
+
+        p {
+            font-size: 25px; /* حجم الخط */
+            line-height: 1.5; /* ارتفاع السطر */
+            color: rgb(2, 0, 8); /* لون النص */
+            margin: 5px 0; /* هوامش (أعلى وأسفل) */
+            text-align:center; /* محاذاة النص */
+            font-family: Tahoma, sans-serif; /* نوع الخط */
+        }
+
+        /* إضافة تنسيق عند تحويل النص إلى كبير */
+        p.large {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* تغيير لون النص عند مرور المؤشر عليه */
+        p:hover {
+            color: #045215;
+        }
+        .awards {
+            display: flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            
+            justify-content: center;
+            align-content: center;
+            margin: 5px;
+            padding: 5px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+      
+      
+        .award {
+            
+            flex: 0 0 calc(30% - 20px); /* عرض 50% مع هوامش */
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            text-align:right;
+            background-color: #CFCBBE;
+        }
+
+        .award img {
+            width: 150px;
+            height: 150px;
+            display: block;
+            margin: 0 auto; /* للتوسيط الأفقي */
+            vertical-align: middle; /* للتوسيط العمودي */
+            box-shadow: rgb(168, 113, 40);
+            border-radius: 20px;
+        }
+        
+        .contact-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .contact-info, .contact-form {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .contact-form {
+            text-align: center;
+        }
+
+        .contact-form form {
+            text-align: right;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+        
+        #copyrights {
+            color: black;
+            background: #CFCBBE;
+            padding: 20px 0;
+            border-radius: 20px;
+            text-shadow: 0 1px 0 #CFCBBE ;
+        }
+    #footer {
+
+         background-color: #CFCBBE;
+            color: black;
+            padding: 5px;
+
+    }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <img src="Logo%20M.png"> </nav>
+        <nav class="nav-bar">
+        <a href="Index.html" class="nav-item">الرئيسية</a>
+        <a href="HisWritings.html" class="nav-item">المؤلفات</a>
+        <a href="Professional%20biography.html" class="nav-item">السيرة المهنية</a>
+        <a href="awards.html" class="nav-item">الجوائز</a>
+        <a href="contctUs.html" class="nav-item">تواصل معنا</a>
+        <a href="aboutUs.html" class="nav-item"> نبذة عن الموقع</a>
+    </nav><br>
+    <header class="awards">
+        <h1>تواصل معنا</h1>
+    </header><br>
+
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>معلومات الاتصال</h2>
+            <p>إذا كان لديك أي استفسارات أو تعليقات، يمكنك التواصل معنا عبر الوسائل التالية:</p>
+            <p>البريد الإلكتروني: example@example.com</p>
+            <p>الهاتف: +123456789</p>
+            <p>العنوان: شارع المثال، المدينة، البلد</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>نموذج الاتصال</h2>
+            <form action="process_contact.php" method="post">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="إرسال">
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        <h2 style="color: black; text-align: center">فريق العمل:</h2>
+        <ul style="color: black; text-align:center">
+            <li>رغد العنزي</li>
+            <li>رفعه القحطاني</li>
+            <li>ليان العصيمي</li>
+            <li>اروى المرشدي</li>
+        </ul>
+        
+        <div class="contact-info">
+        <img src="customer-service.png" alt="تواصل معنا" /><br>
+        <a href="contctUs.html" class="nav-item">تواصل معنا</a>
+    </div><br>
+
+    <div class="contact-info">
+        <img src="phone-call.png" alt="هاتف" />
+        <p class="nav-item">01123456789</p>
+    </div>
+
+    <div class="contact-info">
+        <img src="email.png" alt="بريد إلكتروني" />
+        <p class="nav-item">example@example.com</p>
+    </div>
+    <div id="copyrights"><h3>جميع الحقوق محفوظة لموقع الدكتور محمد فتحي عبدالهادي ©2014    
+    </h3></div>
+</footer>
+</body>
+</html>
